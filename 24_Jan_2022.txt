@@ -1,0 +1,162 @@
+       Monday  24th Jan 2022
+
+
+
+Q.1) Write algorithm that checks two numbers and print maximum of Two numbers
+
+    import java.util.Scanner;
+
+    public class MaxOfTwoNum {
+
+	public static void main(String[] args) {
+	      Scanner sc = new Scanner(System.in);
+	      System.out.println("Enter Two Numbers : ");
+	      int a = sc.nextInt();
+	      int b = sc.nextInt();
+	      
+	      if(a>b) {
+	    	  System.out.println("Max No is = "+a);
+	      }
+	      else {
+	    	  System.out.println("Max No is = "+b);
+	      }
+
+	}
+
+}
+//*************************************************************************************//
+Q.2) Write an Algorithm that checks two numbers and print minimum of Two numbers
+
+    import java.util.Scanner;
+
+    public class MinOfTwoNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+	      System.out.println("Enter Two Numbers : ");
+	      int a = sc.nextInt();
+	      int b = sc.nextInt();
+	      
+	      if(a<b) {
+	    	  System.out.println("Min No is = "+a);
+	      }
+	      else {
+	    	  System.out.println("Min No is = "+b);
+	      }
+
+	}
+
+}
+//****************************************************************************//
+Q.3) Write an Algorithm that checks two numbers and print average of Two numbers
+
+    import java.util.Scanner;
+
+    public class FindAvg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  Scanner sc = new Scanner(System.in);
+	      System.out.println("Enter Two Numbers : ");
+	      int a = sc.nextInt();
+	      int b = sc.nextInt();
+	      
+	      double avg = (a+b)/2;
+	      System.out.println("Avg of Two numbers = "+avg);
+
+	}
+
+}
+//****************************************************************************//
+Q.4) Write a program to print 1 to 10 using while loop
+    
+    public class PrintNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=1;
+		while(num<=10) {
+			System.out.println(num);
+			num=num+1;
+		}
+
+	}
+
+}
+//****************************************************************************//
+     
+Q.5) Write a program to print 10 to 1 using while loop
+
+     public class PrintRevNum {
+
+	public static void main(String[] args) {
+		int num=10;
+		while(num>=1) {
+			System.out.println(num);
+			num=num-1;
+		}
+
+
+
+	}
+
+}
+//****************************************************************************//
+Q.6) Write a program to print 2,4,6,8,10 using for loop and  while loop
+
+    public class UseForLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i=2; i<=10; i=i+2) {
+			System.out.println(i);
+		}
+
+	}
+
+}
+
+
+     public class UseWhileLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=2;
+		while(num<=10) {
+			System.out.println(num);
+			num=num+2;
+		}
+
+	}
+
+}
+//****************************************************************************//
+Q.7) Write a program to print 10, 8, 6, 4, 2 using for loop and  while loop"
+
+    public class ForUsingRev {
+
+	public static void main(String[] args) {
+		
+		for(int i=10; i>=1; i=i-2) {
+			System.out.println(i);
+		}
+		
+		}
+	}
+
+
+     public class UsingWhileRev {
+
+	public static void main(String[] args) {
+		
+		int i=10;
+		while(i>=1) {
+			System.out.println(i);
+			i=i-2;
+		}
+	}
+	
+}
+//****************************************************************************//
+		
